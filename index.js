@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const currencyController = require('./controller/CurrencyExchange');
-const bodyParser = require('body-parser');
 
 app.get('/api/rates',currencyController)
 app.get('*',(req,res)=>{

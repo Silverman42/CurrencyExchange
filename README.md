@@ -8,8 +8,6 @@ Yarn Package Manager
 ### Dependencies
 ````json
     "express": "^4.17.1"
-    "body-parser": "^1.19.0",
-    "express-validator": "^6.9.2",
     "node-fetch": "^2.6.1",
     "nodemon": "^2.0.7",
     "validatorjs": "^3.22.1"
