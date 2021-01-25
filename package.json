@@ -1,0 +1,22 @@
+{
+  "name": "currency_exchange",
+  "version": "1.0.0",
+  "description": "Currency Exchange API for Enye Internship",
+  "main": "index.js",
+  "repository": "https://github.com/Silverman42/CurrencyExchange.git",
+  "author": "Nkeze Sylvester",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express-validator": "^6.9.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "validatorjs": "^3.22.1"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js"
+  }
+}
